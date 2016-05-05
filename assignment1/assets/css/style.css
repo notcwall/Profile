@@ -235,8 +235,7 @@ footer{
 @media screen and (max-width: 980px){
 
 	.wrapper{
-		margin: 0 auto -70px;
-		width: 980px;
+		margin: 0 auto -30px;
 	}
 
 	#main{
@@ -261,11 +260,11 @@ footer{
 
 	footer{
 		height: 30px;
-		padding: 30px 0px 10px 0px;
+		padding-bottom: 25px;
 	}
 
 	#footerTopBorder{
-		bottom: 50px;
+		bottom: 60px;
 	}
 
 }
@@ -277,8 +276,8 @@ footer{
 	}
 
 	.wrapper{
-		margin: 0 auto -70px;
-		width: 768px;
+		margin: 0 0 -70px;
+		width: 400px;
 	}
 
 	h1{
@@ -316,49 +315,60 @@ footer{
 	}
 
 	#links{
-		position: fixed;
-		bottom: 946px;
-		left: 376px;
+		position: relative;
+		bottom: 720px;
+		left: 176px;
 	}
 
 }
 
 @media screen and (max-width: 640px){
 
+	html, body{
+		max-width: 630px;
+	}
+
 	header{
-		position: fixed;
-		top: 50px;
+		position: static;
+		margin-top: 50px;
 	}
 
 	h1{
-		width: 100%;
+		width: 580px;
 		position: absolute;
 		text-align: center;
-		bottom: 710px;
+		bottom: 711px;
 		right: 0px;
 		left: -30px;
 	}
 
 	.wrapper{
-		width: 640px;
+		width: 600px;
+		margin: 0 auto -70px;
 	}
 
 	#main{
 		width: 580px;
-		top: 40px;
-		left: 20px;
+		bottom: 60px;
+		left: 0px;
 	}
 
 	#sidebar{
 		width: 600px;
-		top: 55px;
-		left: 20px;
+		top: -40px;
+		left: 0px;
+		padding-top: 15px;
 	}
 
 	#links{
-		bottom: 895px;
-		left: 125px;
+		position: relative;
+		bottom: 680px;
+		left: 0px;
 		word-spacing: 50px;
+		padding-right: 0px;
 	}
 
+	footer{
+		height: 30px;
+	}
 }
